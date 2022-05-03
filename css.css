@@ -1,0 +1,8 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+body{position: relative;}
+#app{height: 800px;background: #aaa;position: absolute;left:10%;right: 10%;top: 50px;bottom:10%;}
+#app > .wrap{width: 100%;display: flex;justify-content: space-between;height: 100%;}
+#app > .wrap ul{display: flex;flex-flow: column;}
+#app > .wrap ul li{width: 20%;height: 20%;}
